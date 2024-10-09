@@ -1,10 +1,10 @@
 name = "medium-backend"
 main = "src/index.ts"
 compatibility_date = "2024-10-09"
-compatibility_flags = [ "nodejs_compat" ]
+compatibility_flags = ["nodejs_compat"]
 
-# [vars]
-# MY_VAR = "my-variable"
+[vars]
+DATABASE_URL = "prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNThjNjk1YTctYmM3MS00MzVjLThhYTktYTUxNTE2ZjI0NmM5IiwidGVuYW50X2lkIjoiMDNkM2M3OGUxNDQzZTNkNjBkYzVjNTdmZWY0M2RiMWU0NWNiNGMwZmVhMWY4Njc3NGYyM2EzOWM2MGIwMTk0OCIsImludGVybmFsX3NlY3JldCI6IjM2ZmJkMmY4LWUwMDAtNDU5Mi1iYzYwLTk5MDkyYjAzNWRiMiJ9.4LPrMgR7143t48d5CWKO3JTsEGgDWIgpIcLhyn1rR6c"
 
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
@@ -25,3 +25,4 @@ compatibility_flags = [ "nodejs_compat" ]
 # [observability]
 # enabled = true
 # head_sampling_rate = 1
+
